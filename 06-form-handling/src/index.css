@@ -1,0 +1,33 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+   
+    height:300px;
+    width:fit-content;
+    display:grid;
+    background-color: lab(46.29% 1.16 0.41);
+    padding:30px 80px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input{
+    height:30px;
+    width:200px;
+    color: aliceblue;
+    border-radius: 3px;
+    box-shadow: none;
+   
+}
+button{
+    height:30px;
+    width:200px;
+    border-radius: 5px;
+    background-color: rgb(14, 197, 45);
+    box-shadow: none;
+}
