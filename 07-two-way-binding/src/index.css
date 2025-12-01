@@ -1,0 +1,45 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(44, 43, 43, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+   
+    height:300px;
+    width:fit-content;
+    display:grid;
+    background-color: lab(46.29% 1.16 0.41);
+    padding:30px 80px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input{
+    height:30px;
+    width:200px;
+    color: aliceblue;
+    border-radius: 3px;
+    box-shadow: none;
+   
+}
+button{
+    height:30px;
+    width:200px;
+    border-radius: 5px;
+    background-color: rgb(14, 197, 45);
+    box-shadow: none;
+}
